@@ -1,0 +1,23 @@
+{
+  "name": "nextstacks",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stacks/connect": "^7.3.1",
+    "@stacks/connect-react": "^22.1.1",
+    "@stacks/network": "^6.5.5",
+    "@stacks/transactions": "^6.7.0",
+    "encoding": "^0.1.13",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
