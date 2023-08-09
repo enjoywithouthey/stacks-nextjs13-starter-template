@@ -5,6 +5,15 @@ Inspired by the good folks at Hiro and their [Stacks Starter Packages](https://g
 
 The template was built with NextJS v13.4 and React v18.2
 
+### Installation & Running
+The node_modules directory has been deleted for portability and version control. Clone the repo and then in the parent directory run the CL:
+
+`% npm install`
+
+Then you can compile that code and run a session on localhost:3000 using CL:
+
+`% npm run dev`
+
 ### Known Issues
 In the new NextJS 13, pages default to be Server-side components (SSC), which is a massive imporvement for SEO and load times. With the @stacks/connect-react, the <Connect /> component utilized React state, so any pages calling <Connect/> mut be converted to [client components](https://nextjs.org/docs/getting-started/react-essentials#when-to-use-server-and-client-components).
 
